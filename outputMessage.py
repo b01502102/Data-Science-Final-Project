@@ -54,8 +54,8 @@ def writeCommentCommentToFile(message):
     
 def cleanEndLineInMessage(message):
     string = ''
-    for sentence in message.split('\n'):
-        string += sentence.strip('\r\n').replace('\t',u'，') + u'。'
+    sentence = message.replace('!','').replace('\r','').replace('\n','').replace('\t','')
+    string += sentence
     return string
 
 def outputMessageFromDataDict(dataDict,messageType):

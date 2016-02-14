@@ -4,8 +4,8 @@ import ckip
 
 person = 'LLChu'
 
-messageFileName = './%s/%s_commentCommentData.txt' % (person,person)
-segMessageFileName = './%s/%s_commentCommentData_seg.txt' % (person,person)
+messageFileName = './%s/%s_commentData-1.txt' % (person,person)
+segMessageFileName = './%s/%s_commentData-1_seg.txt' % (person,person)
 
 def ckipToken(string):
     result = ckip.seg(string)
@@ -44,3 +44,4 @@ while True:
     #continue
     segMessageFd.write(ID + '\t' + tokenResult.encode('utf8') + '\n')
     #quit()
+    
