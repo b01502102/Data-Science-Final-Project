@@ -6,7 +6,7 @@ import time
 import random
 import os
 
-token = 'CAAVJQBPxAYEBAMvySqlZBHdZC9pmr05qvWgTZCHo5a4b684vu41TkdIpqZASZCVbHloQDU0fXZAa8e8ZAlhwqLRBicY0Sp9zlBIe5KGFJzrsZBElq4dRVosADmy5kfW3WgXUJHcDMUkN9X1aA3CBUqcGTV0JxMIHG168cTTN86oAEncopJpG1rwiKCU8gVZCwgMoZD'
+token = ''
 
 year = 2015
 month = 11
